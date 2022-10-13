@@ -1,0 +1,44 @@
+
+.navbar{
+    z-index: 999;   
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game_card{
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.testo1{
+    color: rgb(45, 167, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+p{
+    color: rgb(84, 84, 84);
+}
+
+.testo_header{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.test{
+    background-color: salmon;
+}
+
+.btn-primary{
+    max-width: 150px;
+    padding: 7px;
+    border-radius: 17px;
+}
+
