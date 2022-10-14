@@ -37,6 +37,11 @@ body{
     justify-content: center;
 }
 
+.lente{
+    width: 35px;
+    margin-left: 15px;
+}
+
 .container-fluid{
     padding: 0;
 }
@@ -65,27 +70,36 @@ img{
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
-    transition: transform 2s;
-    border: 3px solid transparent black;
+    transition: transform 1s;
+    outline-width: 3px;
+    cursor: pointer;
 }
 
 .game_card .active{
-    outline-style: solid 3px;
+    outline-style: solid;
     outline-color: rgb(45, 167, 255);
+    outline-width: 3px;
     transform: translateY(-10px);
     cursor: pointer;
 }
 
 .game_card:hover{
-    padding: 3px;
-    outline-style: solid 3px;
+    outline-style: solid;
+    outline-width: 3px;
     outline-color: rgb(45, 167, 255);
+    transform: translateY(-25px);
+    
 }
 
 .testo1{
     color: rgb(45, 167, 255);
     font-size: 15px;
     font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 p{
@@ -112,6 +126,11 @@ p{
     display: none;
 }
 
+.card-ps5{
+    transition: transform .2s;
+    cursor: pointer;
+}
+
 .card-ps5:hover .riga-selezione{
     display: block;  
 }
@@ -125,9 +144,6 @@ p{
     opacity:100%;
 }
 
-.card-ps5{
-    transition: transform .2s
-}
 
 .card-ps5:hover{
     transform: scale(1.3);
