@@ -70,14 +70,16 @@ img{
 }
 
 .game_card .active{
-    border: 3px solid rgb(45, 167, 255);
+    outline-style: solid 3px;
+    outline-color: rgb(45, 167, 255);
     transform: translateY(-10px);
     cursor: pointer;
 }
 
 .game_card:hover{
     padding: 3px;
-    border: 3px solid rgb(45, 167, 255);
+    outline-style: solid 3px;
+    outline-color: rgb(45, 167, 255);
 }
 
 .testo1{
